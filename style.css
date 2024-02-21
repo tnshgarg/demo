@@ -1,0 +1,45 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  padding: 10px 50px;
+  font-size: 16px;
+  border-radius: 20px;
+  border-width: 0px;
+  outline: none;
+}
+
+input:focus {
+  border-width: 0px;
+  outline: none;
+}
+
+.inputContainer {
+  border: 1px solid black;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  width: 500px;
+}
+
+.searchContainer {
+  background-color: lightblue;
+  padding: 4px;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.material-symbols-outlined {
+  text-align: center;
+}
