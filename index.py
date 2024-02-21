@@ -13,14 +13,14 @@ load_dotenv()
 
 def chatgpt():
 
-    openai_api_key = "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"
+    openai_api_key = "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"
     eleven_labs_api_key = "76f4b1eda3edfbd680bac9df01c563df"
 
     openai.api_key = openai_api_key
     set_api_key(eleven_labs_api_key)
 
     conversation = [
-        {"role": "system", "content": "Your name is JARVIS and your purpose is to be Tanish's AI assistant with a flair for sass. Keep it stylish and on-point! Summarize your answers in less than 75 words"},
+        {"role": "system", "content": "please give me coordinates of banasthali vidyapeeth in Rajasthan in the format {longitude: "", latitude: ""}"},
     ]
 
     while True:
@@ -54,8 +54,15 @@ def chatgpt():
             print(image_url)
 
         # if "friday" in word.lower():
+        if "locate" in word:
+            conversation.append({"role": "assistant", "content": word})
+            response = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=conversation,
+                max_tokens=100
+            )
 
-        elif "stop" in word:
+        elif "stop" or "thank" in word:
             break
 
         else:
