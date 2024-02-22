@@ -1,0 +1,17 @@
+1.⁠ ⁠Discuss anything about Rajasthan's Culture
+2.⁠ ⁠Search for any Tourist Location in Rajasthan
+3.⁠ ⁠Draw any Image of Rajasthan's Tourist Places
+4.⁠ ⁠And you know what is the greatest part, it is not limited to only Rajasthan! You can be in any city in India and use Monu Bhaiya it anywhere
+
+
+Tourist AI Assistant
+•⁠  ⁠Tour Guide
+    - Discovering New Places
+    - Know about the places
+    - Know about the Food and Culture
+    - It will also tell you about the current festivals that are going on or what are the regional festivals that a culture celebrates!
+
+This is just an MVP - Minimum Viable Product for the actual product that we are building.
+
+
+- We have worked on the data and generation part currently, we will be soon working on it's Website and Mobile Application as well, so that we can reach maximum user base. For that we need your approval and your guidance in acheiving our future goals.
